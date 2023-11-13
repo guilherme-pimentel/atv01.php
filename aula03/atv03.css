@@ -34,4 +34,10 @@ div{
         background-color: aliceblue;
         height: 50px;
         width: 50px;
+        font-size: large;
+        text-align: center;
     }
+
+  p{
+    padding-top: 15px;
+}
