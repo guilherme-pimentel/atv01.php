@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+#img{
+    width: 200px;
+    margin: 50px 200px;
+    padding: 5px;
+    border: 10px solid rgba(0, 0, 0, 0.3);
+}
+
+#div{
+    background: url("download.png") no-repeat center rgba(100, 230, 50, 0.5);
+    background-position: 1100px;
+    background-size: 100px;
+}
+
+#all{
+    height: 800px;
+    background-color: rgb(163, 228, 154);
+}
+
+#div2{
+    border: 5px solid rgba(0, 0, 0, 0.3);
+}
