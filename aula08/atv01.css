@@ -1,0 +1,70 @@
+body{
+    margin:0;
+}
+
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-areas: 'item1 item1 item1'
+                         'item2 item3 menu'
+                         'rodape rodape rodape';      
+    grid-template-columns: 200px auto 100px;
+    grid-template-rows: auto 1fr 100px;
+    height: 100vh;
+}
+
+.inner-grid{
+    text-align: center;
+    display: grid;
+    grid-template-areas: 'item4 '
+                         'item5'
+                         'item6';      
+    grid-template-columns: 1fr ;
+    grid-template-rows: 163px 164px 164px ;
+}
+.item1{
+    grid-area: item1;
+    border: 3px solid blue;
+    background-color: aqua;
+}
+.item2{
+    grid-area: item2;
+    border: 3px solid blue;
+    background-color: bisque;
+}
+.item3{
+    grid-area: item3;
+    border: 3px solid blue;
+    background-color: aquamarine;
+}
+
+.item4{
+    grid-area: item4;
+    border: 3px solid blue;
+    background-color: rgb(165, 42, 124);
+}
+
+.item5{
+    grid-area: item5;
+    border: 3px solid blue;
+    background-color: brown;
+}
+
+.item6{
+    grid-area: item6;
+    border: 3px solid blue;
+    background-color: blueviolet;
+}
+
+.menu{
+    grid-area: menu;
+    border: 3px solid blue;
+    background-color: chartreuse;
+}
+
+.rodape{
+    grid-area: rodape;
+    border: 3px solid blue;
+    background-color: chocolate;
+}
+
